@@ -1,0 +1,10 @@
+name          'gdsoperations-clamav'
+version       '0.0.1'
+source        'UNKNOWN'
+author        'gdsoperations'
+license       'MIT'
+summary       'Module to install clamav'
+description   'Module to install clamav'
+project_page  'https://github.com/alphagov/puppet-clamav'
+
+dependency 'puppetlabs/stdlib', '>= 3.0.0'
