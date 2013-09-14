@@ -1,3 +1,7 @@
+# == Class: clamav
+#
+# class to install clamav
+
 class clamav {
   anchor { 'clamav::begin':
     notify  => Class['clamav::service'],

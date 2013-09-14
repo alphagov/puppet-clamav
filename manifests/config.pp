@@ -1,3 +1,6 @@
+# == Class: clamav::config
+#
+# install clamav config files
 class clamav::config {
   file { '/etc/clamav/clamd.conf':
     ensure => present,
