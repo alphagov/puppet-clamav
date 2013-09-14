@@ -30,8 +30,6 @@ class clamav {
 
 
   anchor { 'clamav::end':
-    require => Class[
-      'clamav::service',
-    ],
+    require => Class['clamav::service'],
   }
 }
