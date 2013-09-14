@@ -24,9 +24,6 @@ class clamav {
     require => Class['clamav::run_freshclam'],
   }
 
-  class { 'clamav::monitoring':
-    require => Class['clamav::config'],
-  }
 
   anchor { 'clamav::end':
     require => Class[
