@@ -1,2 +1,5 @@
 2013-09-14 Release 0.0.1
 - Initial release
+
+2014-03-12 Release 0.0.2
+- Qualified `exec` type in `manifests/run_freshclam.pp`
