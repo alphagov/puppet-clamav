@@ -7,7 +7,7 @@
 #
 class clamav::run_freshclam {
   exec { '/usr/bin/freshclam --quiet':
-    timeout     => 480,
+    timeout     => 600,
     refreshonly => true,
   }
 }
