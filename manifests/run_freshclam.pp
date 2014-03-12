@@ -6,7 +6,7 @@
 # should have run by the time Puppet next attempts to start clamav-daemon.
 #
 class clamav::run_freshclam {
-  exec { 'freshclam --quiet':
+  exec { '/usr/bin/freshclam --quiet':
     refreshonly => true,
   }
 }
