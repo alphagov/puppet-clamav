@@ -3,3 +3,4 @@
 
 2014-03-12 Release 0.0.2
 - Qualified `exec` type in `manifests/run_freshclam.pp`
+- Increased `timeout` parameter on `exec` type in `manifests/run_freshclam.pp`
